@@ -1,13 +1,9 @@
 备忘：命令
-
 python setup.py install
-
 python main.py
 
-
-
+=====================================
 运行结果：
-
 tm_dict0.png	原版函数target_mean_v3()							耗时：0.00299	结果正确
 
 tm_dict1.png	dict的key value改为int           					耗时：0.00199	结果正确
@@ -18,8 +14,7 @@ tm_unordered_map.png	再改为unordered_map      					耗时：0.00099	结果基
 
 以上结果100000行观测皆能在1s内跑完
 
-
-
+=====================================
 思考(希望助教老师能够解答一下)：
 
 1.为什么每次在error_tm.pyx中python setup.py install能成功，但是一旦在main.py中使用tm.target_mean_v4()
