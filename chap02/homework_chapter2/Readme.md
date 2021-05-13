@@ -16,6 +16,3 @@ tm_unordered_map.png	再改为unordered_map      					耗时：0.00099	结果基
 但是将target_mean_v3()与target_mean_v4()分别写到两个.pyx文件中就不报错了？
 2.为什么有时候改完.pyx文件后，删掉python install后出现的cpp和build文件后重新python install还是会显示改之前实现方法的运行时间？
 3.为什么在改为unordered_map后对比dict速度并没有明显提升？
-
-
-原来是5000 运行的
